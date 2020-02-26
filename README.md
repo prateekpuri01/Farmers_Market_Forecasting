@@ -9,3 +9,5 @@ The features my forecasting models are extracted from weather, city public infor
 The enhanced forecasting provided may the model can help vendors minimize product waste by more efficiently handling stocking and also may be used to guide dynamic pricing of produce on low-attendance market days.
 
 The sales data is private and is not directly available on this repository but the databases utilized for feature extraction can be made available by request.
+
+The app can be accessed at: http://www.seedforecasts.com/
