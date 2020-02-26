@@ -10,4 +10,4 @@ The enhanced forecasting provided may the model can help vendors minimize produc
 
 The sales data is private and is not directly available on this repository but the databases utilized for feature extraction can be made available by request.
 
-The app can be accessed at: http://www.seedforecasts.com/
+The dashbaord, constructed in python DASH, can be accessed at: http://www.seedforecasts.com/
