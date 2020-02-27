@@ -60,5 +60,18 @@ To train my model, I used sales data for previous market days. When featurizing 
 
 Further, the model would be most useful if it could predict sales for an individual vendor rather than the average sales per vendors across a particular vendor class. Currently, the sales data for each vendor type is aggregated. The agency I partnered with can deaggregate the information so individual vendor sales, and even individual item sales for each vendor, are discernable. If I pursue the project further, these are avenues I would like to explore. 
 
+**Organization of repo**
+
+
+All analysis was conducted in Python and SQL. Jupyter notebooks that were used for various aspects of the project (model evaluation, model construction, feature extraction, etc) are labeled and stored in the 'Notebooks' folder. 
+
+The total feature matrix is included in the 'Feature_Data_Files' folder as well as other scraped (Google Trends, etc.) data sets. 
+
+The results of the models and the models themselves are stored in separate files for each vendor/product combination in the 'Model_Files' folder. 
+
+The assets folder contains the DASH dashboard style files, the weather folder contains the raw/cleaned weather data, and the Dashboard.py while contains the code for the online interface.
+
+
+
 
 
