@@ -34,8 +34,7 @@ Here is a list of features that were extracted for each market broken down by da
 
 Google Trends - how often the term 'farmers market' was googled in Los Angeles prior to market date
                 https://trends.google.com/trends/explore?date=today%205-y&geo=US-CA-803&q=farmers%20market
-                
-                how often the term 'los Angeles wildfire' was googled in Los Angeles prior to market date
+                how often the term 'farmers market' was googled in Los Angeles prior to market date
                 https://trends.google.com/trends/explore?date=today%205-y&geo=US-CA-803&q=los%20angeles%20wildfire
 
 
