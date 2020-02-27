@@ -29,7 +29,14 @@ For each market, I want to be able to predict the average sales that will be gen
 
 **Sales data
 
-The sales data for the markets were acquired from a Los Angeles market managing organization. The dataset included the total sales generated for each market on each market date, broken down by vendor type (agricultural, baked good, hot goods, etc.). I created a sales forecasting model for each market, and specifically, for each vendor type within each market.
+The sales data for the markets were acquired from a Los Angeles market managing organization. The dataset included the total sales generated for each market on each market date, broken down by vendor type (agricultural, baked good, hot goods, etc.). I created a sales forecasting model for each market, and specifically, for each vendor type within each market. There are four separate markets that have the following vendor data available
+
+Saturday Market - Agricultural <br/>
+Pico Market (Saturday as well, different location) - Agricultural, Hot Food, Baked Good, Coffee <br/>
+Sunday Market - Agricultural, Hot Food, Baked Good, Retail, Coffee <br/>
+Wednesday Market - Agricultural <br/>
+
+Not all of these vendors have perishable goods (i.e. retail), but I have the data so I will still construct models just to see if anything useful can be gleamed. 
 
 The predictions for one of my models is plot against the actual sales for one particular market/vendor combo below. Here I trained my data on 4 years of sales information and then tested it on the most recent year of data. 
 
@@ -57,17 +64,26 @@ Weather data - The wind, temperature, and rain on a given market day as well as 
                 
 # Brief result overview
 
-My models have an average mean average percent sales prediction error of roughly ~11%, as compared to an estimated baseline of ~13% for methods vendors are currently using.
+My models have an average mean average percent sales prediction error of roughly ~11%, as compared to an estimated baseline of ~13% for methods vendors are currently using. Here is a breakdown of the mape, grouped by product type and vendor type
 
 The enhanced forecasting provided by the models can help vendors minimize product waste by more efficiently handling stocking and also may be used to guide dynamic pricing of produce on low-attendance market days.
 
 The sales data is private and is not directly available on this repository, but the databases utilized for feature extraction can be made available by request.
+
+![](/Plots/mape_by_day.PNG?raw=true) 
+
+
+![](/Plots/mape_by_product.PNG?raw=true) 
+
+
+
 
 **Caveats/Future improvements**
 
 To train my model, I used sales data for previous market days. When featurizing these market dates for inclusion in the model, I used historical weather data for the particular market date. However, when predicting future market sales, I will only have weather *forecasts* available, not the actual weather. This will add some uncertainty to the model. 
 
 Further, the model would be most useful if it could predict sales for an individual vendor rather than the average sales per vendors across a particular vendor class. Currently, the sales data for each vendor type is aggregated. The agency I partnered with can deaggregate the information so individual vendor sales, and even individual item sales for each vendor, are discernable. If I pursue the project further, these are avenues I would like to explore. 
+
 
 # Organization of repo
 
