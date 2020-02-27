@@ -63,7 +63,10 @@ Further, the model would be most useful if it could predict sales for an individ
 **Organization of repo**
 
 
-All analysis was conducted in Python and SQL. Jupyter notebooks that were used for various aspects of the project (model evaluation, model construction, feature extraction, etc) are labeled and stored in the 'Notebooks' folder. 
+All analysis was conducted in Python and SQL.
+A brief overview of the repo structure is given here but please see each individual folder for more file details. 
+
+Jupyter notebooks that were used for various aspects of the project (model evaluation, model construction, feature extraction, etc) are labeled and stored in the 'Notebooks' folder. 
 
 The total feature matrix is included in the 'Feature_Data_Files' folder as well as other scraped (Google Trends, etc.) data sets. 
 
