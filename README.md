@@ -1,5 +1,7 @@
 # Farmers_Market_Forecasting
 
+*Project Goal*
+
 This project is focused on predicting weekly sales for a series of Farmer's Markets in Santa Monica that collectively handle ~$10 million in transactions annually. There are four separate markets that were studied that occur on different days of the week and have vendors of different varieties.
 
 Using sales data for the market acquired from a Los Angeles market managing organization, I created forecasting model for each market, and specifically, for vendors of different varieties within each market (agricultural, baked goods, hot food, etc.)
