@@ -1,6 +1,6 @@
 # Farmers Market Forecasting
 
-**Project Goal**
+# Project Goal
 
 Farmers markets generate over a billion dollars in sales annually in the US and also provide platforms for promoting community engagement, the support of local businesses, and environmentally friendly agriculture. 
 
@@ -12,22 +12,22 @@ To combat this issue, I would like to create a sales forecaster that can predict
 
 The web-app dashboard for my completed project, written in DASH, can be accessed here: http://www.seedforecasts.com/
 
-**Target audience for project**
+# Target audience for project
 
 This project is focused on predicting weekly sales for a series of Farmer's Markets in Santa Monica (SM) that collectively handle ~$10 million in transactions annually. There are four separate markets that were studied that occur on three different days of the week (Wed, Sat, Sun) and have vendors of different varieties.
 
 The resulting online dashboard product would be used by vendors of the 4 studied SM markets. 
 
-**Technical approach**
+# Technical approach
 
 For each market, I want to be able to predict the average sales that will be generated per vendor within a specific vendor category. To do this I will featurize each market and then feed these features into a ridge regression model that can be trained on previous sales data to predict future sales outcomes. 
 
 
 ![](/Plots/github_pipeline.PNG?raw=true) 
 
-**Data Sources**
+# Data Sources
 
-*Sales data*
+**Sales data
 
 The sales data for the markets were acquired from a Los Angeles market managing organization. The dataset included the total sales generated for each market on each market date, broken down by vendor type (agricultural, baked good, hot goods, etc.). I created a sales forecasting model for each market, and specifically, for each vendor type within each market.
 
@@ -35,7 +35,7 @@ The predictions for one of my models is plot against the actual sales for one pa
 
 ![](/Plots/sunday_ag.PNG?raw=true)
 
-*Market features*
+**Market features
 
 The features included in my forecasting models are extracted from weather, city public information, google trends, and market metadata datasets. 
 
@@ -55,7 +55,7 @@ Market metadata - I know the date of each market in my dataset. From the date, I
 
 Weather data - The wind, temperature, and rain on a given market day as well as the amount of rain the day before the market: https://www.meteoblue.com/en/weather/week/santa-monica_united-states-of-america_5393212
                 
-**Brief result overview**
+# Brief result overview
 
 My models have an average mean average percent sales prediction error of roughly ~11%, as compared to an estimated baseline of ~13% for methods vendors are currently using.
 
@@ -69,7 +69,7 @@ To train my model, I used sales data for previous market days. When featurizing 
 
 Further, the model would be most useful if it could predict sales for an individual vendor rather than the average sales per vendors across a particular vendor class. Currently, the sales data for each vendor type is aggregated. The agency I partnered with can deaggregate the information so individual vendor sales, and even individual item sales for each vendor, are discernable. If I pursue the project further, these are avenues I would like to explore. 
 
-**Organization of repo**
+# Organization of repo
 
 
 All analysis was conducted in Python and SQL.
