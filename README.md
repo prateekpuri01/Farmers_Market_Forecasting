@@ -12,19 +12,27 @@ To combat this issue, I would like to create a sales forecaster that can predict
 
 The web-app dashboard for my completed project, written in DASH, can be accessed here: http://www.seedforecasts.com/
 
-**Domain of project**
+**Target audience for project**
 
-This project is focused on predicting weekly sales for a series of Farmer's Markets in Santa Monica that collectively handle ~$10 million in transactions annually. There are four separate markets that were studied that occur on three different days of the week (Wed, Sat, Sun) and have vendors of different varieties.
+This project is focused on predicting weekly sales for a series of Farmer's Markets in Santa Monica (SM) that collectively handle ~$10 million in transactions annually. There are four separate markets that were studied that occur on three different days of the week (Wed, Sat, Sun) and have vendors of different varieties.
+
+The resulting online dashboard product would be used by vendors of the 4 studied SM markets. 
 
 **Technical approach**
 
 For each market, I want to be able to predict the average sales that will be generated per vendor within a specific vendor category. To do this I will featurize each market and then feed these features into a ridge regression model that can be trained on previous sales data to predict future sales outcomes. 
+
+![](/plots/github_pipeline.png?raw=true)
 
 **Data Sources**
 
 *Sales data*
 
 The sales data for the markets were acquired from a Los Angeles market managing organization. The dataset included the total sales generated for each market on each market date, broken down by vendor type (agricultural, baked good, hot goods, etc.). I created a sales forecasting model for each market, and specifically, for each vendor type within each market.
+
+The predictions for one of my models is plot against the actual sales for one particular market/vendor combo below. Here I trained my data on 4 years of sales information and then tested it on the most recent year of data. 
+
+![](/plots/sunday_ag.png?raw=true)
 
 *Market features*
 
