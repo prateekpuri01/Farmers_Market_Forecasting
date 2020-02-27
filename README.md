@@ -2,9 +2,9 @@
 
 **Project Goal**
 
-Farmers markets generate over a billion dollars in sales annually and also provide platforms for promoting community engagement, the support of local businesses, and environmentally friendly agriculture. 
+Farmers markets generate over a billion dollars in sales annually in the US and also provide platforms for promoting community engagement, the support of local businesses, and environmentally friendly agriculture. 
 
-There are many types of vendors who reside at farmers market, such as agricultural vendors, hot food vendors (think taco stand, crepes, etc), baked good vendors, and more. In fact, many consumers prefer farmers markets because of the freshness of these products; however, this freshness often also means that many of these products are perishable. 
+There are many types of vendors who reside at farmers market, such as agricultural vendors, hot food vendors (think taco stands, creperies, etc.), baked good vendors, and more. Many consumers prefer farmers markets because of the freshness of their products; however, this freshness often also means that many of these products are highly perishable. 
 
 If you are a vendor, you have to predict how much product to stock for an upcoming market, and if you guess wrong, you can potentially lose significant amounts of money in product waste, which hampers your bottom-line profits and ultimately your ability to provide your services to the farmers market community. 
 
