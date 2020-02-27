@@ -1,0 +1,11 @@
+#ModelBuild.ipynb	- build the ridge regression model from the given market feature matrix/sales information
+#Model_Evaluation.ipynb	 -- calculates the MAPE for each model/baseline as well as other performance-related metrics
+#Parking_Data_Extract.ipynb	--- Extracts information from the SM parking count dataset that is used to construct a market feature
+#Parking_Scrape.ipynb	---- Communicates with SM website API so parking info can be scraped in real-time
+#Residual Analysis.ipynb --- Performs analysis on residuals of model so that assumption of linear regression can be checked
+#Revenue_Aggregator.ipynb	-- Organizes all the sales information given to me from the SM Farmers Market association and store it into a convenient format
+#SMFMS_Raw_Data_Transform.ipynb	 --- Used to transform the rawdata given by SM Farmers Market Association into a usable format
+#Weather Extraction.ipynb	 --- Parse the historical weather dataset and extract features of interest
+#featureProduce.ipynb	--- Organize all features together and store into a matrix
+#gTrends.ipynb	First -- Scrape google trends for additional features
+#weather_scrape.ipynb -- scrape weatherbit for forecast information to be used for predicting sales at upcoming markets
