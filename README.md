@@ -10,6 +10,8 @@ If you are a vendor, you have to predict how much product to stock for an upcomi
 
 To combat this issue, I would like to create a sales forecaster that can predict the amount of sales that will be generated at an upcoming market for vendors of particular types (agricultural, hot food, etc). The predicitons from this forecaster could be used by vendors to make more intelligent stocking/staffind predictions. 
 
+The web-app dashboard for my completed project, written in DASH, can be accessed here: http://www.seedforecasts.com/
+
 **Domain of project**
 
 This project is focused on predicting weekly sales for a series of Farmer's Markets in Santa Monica that collectively handle ~$10 million in transactions annually. There are four separate markets that were studied that occur on three different days of the week (Wed, Sat, Sun) and have vendors of different varieties.
@@ -32,20 +34,32 @@ Here is a list of features that were extracted for each market broken down by da
 
 Google Trends - how often the term 'farmers market' was googled in Los Angeles prior to market date
                 https://trends.google.com/trends/explore?date=today%205-y&geo=US-CA-803&q=farmers%20market
-
+                
                 how often the term 'los angeles wildfire' was googled in Los Angeles prior to market date
                 https://trends.google.com/trends/explore?date=today%205-y&geo=US-CA-803&q=los%20angeles%20wildfire
+
+
                 
 Santa Monica Parking Dataset - how occuiped the parking structures in downtown santa monica were before market days (gives an indiciation on if people are traveling or if foot traffic appears to be elevated/depressed for some reason prior to a market event)
 https://data.smgov.net/Transportation/Parking-Lot-Counts/ng8m-khuz
 
 Market metadata - I know the date of each market in my dataset. Fromt the date, I can extract the proximity to major holidays/events (~10 holiday features total, christmas, thanksgiving, superbowl, etc.). I can also convert the month the market took place into a one-hot-encoded set of 12 indicator variables. This can help track seasonal effects that are important in the market, such as crop cycles, school schedules, travel patterns, etc. 
-                
 
-My models have an average mean average percent sales prediction error of 11.7%, as compared to a rough baseline of 14.3% for methods vendors are currently using.
+Weather data - The wind, temperature, and rain on a given market day as well as the amount of rain the day before the market: https://www.meteoblue.com/en/weather/week/santa-monica_united-states-of-america_5393212
+                
+**Brief result overview**
+
+My models have an average mean average percent sales prediction error of roughly ~11%, as compared to an estimated baseline of ~13% for methods vendors are currently using.
 
 The enhanced forecasting provided by the models can help vendors minimize product waste by more efficiently handling stocking and also may be used to guide dynamic pricing of produce on low-attendance market days.
 
 The sales data is private and is not directly available on this repository but the databases utilized for feature extraction can be made available by request.
 
-The dashbaord, constructed in python DASH, can be accessed at: http://www.seedforecasts.com/
+**Caveats/Future improvements**
+
+To train my model, I used sales data for previous market days. When featurizing these market dates for inclusion in the model, I used historical weather data for the particular market date. However, when prediciting future market sales, I will only have weather *forecasts* available, not the actual weather. This will add some uncertainty to the model. 
+
+Further, the model would be most useful if it could predict sales for an individual vendor rather than the average sales per vendors across a particular vendor class. Currently, the sales data for each vendor type is aggregrated. The agency I partnered with can deaggregate the information so individual vendor sales, and even individual item sales for each vendor, are discernable. If  I pursue the project further, these are avenues I would like to explore. 
+
+
+
