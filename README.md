@@ -32,7 +32,7 @@ The sales data for the markets were acquired from a Los Angeles market managing 
 
 The predictions for one of my models is plot against the actual sales for one particular market/vendor combo below. Here I trained my data on 4 years of sales information and then tested it on the most recent year of data. 
 
-![](/plots/sunday_ag.png?raw=true)
+![](/Plots/sunday_ag.png?raw=true)
 
 *Market features*
 
