@@ -23,7 +23,7 @@ The resulting online dashboard product would be used by vendors of the 4 studied
 For each market, I want to be able to predict the average sales that will be generated per vendor within a specific vendor category. To do this I will featurize each market and then feed these features into a ridge regression model that can be trained on previous sales data to predict future sales outcomes. 
 
 
-![](/plots/github_pipeline.png?raw=true) 
+![](/plots/github_pipeline.PNG?raw=true) 
 
 **Data Sources**
 
@@ -33,7 +33,7 @@ The sales data for the markets were acquired from a Los Angeles market managing 
 
 The predictions for one of my models is plot against the actual sales for one particular market/vendor combo below. Here I trained my data on 4 years of sales information and then tested it on the most recent year of data. 
 
-![](/Plots/sunday_ag.png?raw=true)
+![](/Plots/sunday_ag.PNG?raw=true)
 
 *Market features*
 
