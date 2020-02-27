@@ -70,11 +70,8 @@ The enhanced forecasting provided by the models can help vendors minimize produc
 
 The sales data is private and is not directly available on this repository, but the databases utilized for feature extraction can be made available by request.
 
-
-                          ![](/Plots/mape_by_day.PNG?raw=true) | ![](/Plots/mape_by_product.PNG?raw=true) 
-  
-
-
+![](/Plots/mape_by_day.PNG?raw=true) | ![](/Plots/mape_by_product.PNG?raw=true) 
+ 
 
 
 **Caveats/Future improvements**
