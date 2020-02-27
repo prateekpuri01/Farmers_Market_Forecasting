@@ -33,7 +33,7 @@ The features included in my forecasting models are extracted from weather, city 
 Here is a list of features that were extracted for each market broken down by data type
 
 Google Trends - how often the term 'farmers market' was googled in Los Angeles prior to market date
-                https://trends.google.com/trends/explore?date=today%205-y&geo=US-CA-803&q=farmers%20market <\br>
+                https://trends.google.com/trends/explore?date=today%205-y&geo=US-CA-803&q=farmers%20market <br/>
                 how often the term 'farmers market' was googled in Los Angeles prior to market date
                 https://trends.google.com/trends/explore?date=today%205-y&geo=US-CA-803&q=los%20angeles%20wildfire
 
