@@ -93,7 +93,7 @@ The total feature matrix is included in the 'Feature_Data_Files' folder as well 
 
 The results of the models and the models themselves are stored in separate files for each vendor/product combination in the 'Model_Files' folder. 
 
-The assets folder contains the DASH dashboard style files, the weather folder contains the raw/cleaned weather data, and the Dashboard.py while contains the code for the online interface.
+The assets folder contains the DASH dashboard style files, the weather folder contains the raw/cleaned weather data, and the application.py file contains the code for the online interface, which was web-hosted via an AWS EC2 Ubuntu instance. 
 
 
 
