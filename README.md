@@ -10,7 +10,6 @@ If you are a vendor, you have to predict how much product to stock for an upcomi
 
 To combat this issue, I would like to create a sales forecaster that can predict the amount of sales that will be generated at an upcoming market for vendors of particular types (agricultural, hot food, etc). The predictions from this forecaster could be used by vendors to make more intelligent stocking/staffing predictions. 
 
-The web-app dashboard for my completed project, written in DASH, can be accessed here: http://www.seedforecasts.com/
 
 # Target audience for project
 
